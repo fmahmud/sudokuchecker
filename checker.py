@@ -41,5 +41,5 @@ def validate_box(num) :
 
 
 for i in range(9) :
-	if validate_row(i) is not True or validate_col(i) is not True or validate_box(i) is not True :
-		print "bad!"
+	if validate_row(i) and validate_col(i) and validate_box(i) :
+		print "Valid!"
